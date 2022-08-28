@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(/images/kpop.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.9;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.more {
+  background-color: #dfa8bb;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.9;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(247,247,247, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
+.circle-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.about {
+  padding-top: 50px;
+  color: #5f5d60;
+}
+
+.about h2 {
+  font-weight: bold;
+}
+
+.about p {
+  color: #5f5d60;
+  line-height: 35px;
+}
+
+.circles{
+margin-top: 80px;
+}
+
+.circle {
+  float: left;
+  width: 25%;
+}
+
+.vision{
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  background-color: #f35da3;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+}
+
+.lisa {
+  background-image: url("/images/lisa.jpg");
+  background-size: cover;
+}
+
+.jennie {
+  background-image: url("/images/jennie.jpg");
+  background-size: cover;
+}
+
+.jisoo {
+  background-image: url("/images/jisoo.jpg");
+  background-size: cover;
+}
+.rose {
+  background-image: url("/images/rose.jpg");
+  background-size: cover;
+}
+.vision p {
+  color: white;
+  font-weight: bold;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 10px 30px;
+  background-color: #ef88a9;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
